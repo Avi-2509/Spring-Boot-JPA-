@@ -18,7 +18,7 @@ public class BootJpaexampleApplication {
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(BootJpaexampleApplication.class, args);
 		UserRespository userRespository = context.getBean(UserRespository.class);
-		List<User> users = userRespository.findUserByName("Sandeep");
+		List<User> users = userRespository.findUserByName("Sandeepdddddd");
 		for(User user: users){
 			System.out.println(user);
 		}
